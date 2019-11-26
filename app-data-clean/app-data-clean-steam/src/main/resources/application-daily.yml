@@ -1,0 +1,7 @@
+#logging:
+#  file: logs/app-data-clean-steam.log
+data:
+  topic:
+    source: online_daily_data
+    target: online_return_data
+    error: online_error_data

@@ -1,0 +1,98 @@
+{
+  "sign": {
+    "crawler_id": "13408663289",
+    "host_ip": "192.168.30.177",
+    "agent_ip": "59.62.46.179:6888",
+    "crawler_type": "天眼查爬虫全国及时爬数据",
+    "crawler_name": "app",
+    "crawler_web": "https://www.tianyancha.com/company/192373207",
+    "crawler_version": "19.1.9",
+    "words_version": "1.0.0",
+    "data_level": "3"
+  },
+  "_id": "b7aac6d2552611e9b06e005056c00008",
+  "md5_id": "0c8e5ae358e3c57b9629f6f3ec112391",
+  "shareholder": [
+    {
+      "shareholder": "林圣雄",
+      "share_rate": "12.04%",
+      "share_amount": "51153.2万",
+      "share_date": "-",
+      "share_link": "https://www.tianyancha.com/human/2007924176-c192373207",
+      "share_company_num": "15"
+    },
+    {
+      "shareholder": "彭星",
+      "share_rate": "2.12%",
+      "share_amount": "9000万",
+      "share_date": "-",
+      "share_link": "https://www.tianyancha.com/human/1936607542-c192373207",
+      "share_company_num": "42"
+    },
+    {
+      "shareholder": "李福华",
+      "share_rate": "0.71%",
+      "share_amount": "3000万",
+      "share_date": "-",
+      "share_link": "https://www.tianyancha.com/human/1989119011-c192373207",
+      "share_company_num": "19"
+    },
+    {
+      "shareholder": "苏尔盾",
+      "share_rate": "0.64%",
+      "share_amount": "2709万",
+      "share_date": "-",
+      "share_link": "https://www.tianyancha.com/human/2134751879-c192373207",
+      "share_company_num": "7"
+    },
+    {
+      "shareholder": "吴昌实",
+      "share_rate": "0.47%",
+      "share_amount": "2000.4万",
+      "share_date": "-",
+      "share_link": "https://www.tianyancha.com/human/1846845421-c192373207",
+      "share_company_num": "7"
+    },
+    {
+      "shareholder": "李国荣",
+      "share_rate": "0.47%",
+      "share_amount": "2000万",
+      "share_date": "-",
+      "share_link": "https://www.tianyancha.com/human/1981588390-c192373207",
+      "share_company_num": "5"
+    },
+    {
+      "shareholder": "苏义进",
+      "share_rate": "0.47%",
+      "share_amount": "2000万",
+      "share_date": "-",
+      "share_link": "https://www.tianyancha.com/human/2133778967-c192373207",
+      "share_company_num": "3"
+    },
+    {
+      "shareholder": "刘明五",
+      "share_rate": "0.47%",
+      "share_amount": "2000万",
+      "share_date": "-",
+      "share_link": "https://www.tianyancha.com/human/1812345567-c192373207",
+      "share_company_num": "5"
+    },
+    {
+      "shareholder": "姚国宁",
+      "share_rate": "0.43%",
+      "share_amount": "1820万",
+      "share_date": "-",
+      "share_link": "https://www.tianyancha.com/human/1870167818-c192373207",
+      "share_company_num": "25"
+    },
+    {
+      "shareholder": "赵晓岩",
+      "share_rate": "0.35%",
+      "share_amount": "1500万",
+      "share_date": "-",
+      "share_link": "https://www.tianyancha.com/human/2193141768-c192373207",
+      "share_company_num": "1"
+    }
+  ],
+  "time_stamp": "1554196077.6451538"
+}

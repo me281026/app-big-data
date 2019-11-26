@@ -1,0 +1,27 @@
+data:
+  api:
+    address:  http://192.168.20.224/app-data-goe/api/findAddress
+    getCompanyInfoIds: http://192.168.20.224/api/app-platform-system/dict/getCompanyInfoIds
+    findRegeoByLocation: http://192.168.20.224/app-data-goe/api/findRegeoByLocation
+  topic:
+    source: online_daily_data
+    target: online_return_data
+    error: online_error_data_test
+spring:
+  redis:
+    url: redis://192.168.20.140:6379
+  kafka:
+    bootstrap-servers: 192.168.20.140:9092,192.168.20.141:9093,192.168.20.142:9094
+    consumer:
+      group-id: group40
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      batch-size: 65536
+      buffer-memory: 524288
+server:
+  port: 8888
+

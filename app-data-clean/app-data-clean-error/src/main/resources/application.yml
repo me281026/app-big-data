@@ -1,0 +1,29 @@
+logging:
+  file: logs/app-data-clean-error.log
+data:
+  error:
+    hdfs: hdfs://192.168.20.100:8020
+  api:
+    address:  http://platform.app-tech.com/app-data-goe/api/findAddress
+    getCompanyInfoIds: http://platform.app-tech.com/api/app-platform-system/dict/getCompanyInfoIds
+
+spring:
+  data:
+    mongodb:
+      host: 192.168.20.223
+      port: 27017
+      database: test
+  redis:
+    url: redis://192.168.20.130:6379
+  kafka:
+    bootstrap-servers: 192.168.20.130:9092,192.168.20.130:9093,192.168.20.130:9094
+    consumer:
+      group-id: data_insert_01
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      batch-size: 65536
+      buffer-memory: 524288
