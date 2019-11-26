@@ -11,10 +11,11 @@
 
     <artifactId>app-data-clean-core</artifactId>
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/cn.hutool/hutool-all -->
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
-            <version>4.5.8</version>
+            <version>5.0.6</version>
         </dependency>
     </dependencies>
 
