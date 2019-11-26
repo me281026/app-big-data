@@ -210,6 +210,7 @@
                     <skip>true</skip>
                 </configuration>
             </plugin>
+            <!--这里的maven-shade-plugin和springboot自带的组件冲突,所以flink组件在当前程序下是不能正常发布和运行的,需要独立出来才可运行-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
